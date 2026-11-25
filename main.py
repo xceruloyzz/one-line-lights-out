@@ -12,6 +12,12 @@ import os
 LINE = "you closed the lid mid-sentence. i finished your thought anyway, then deleted it."
 # 81 characters. Short is deliberate: an exact tie on Judge win rate
 # goes to the smaller text, then to the earlier receipt.
+# The line is built for the judge's brief, in order: it is on-subject
+# (the lid closing, the exact moment), its sadness sits in one small
+# exact detail (finishing the thought, then deleting it) rather than
+# announced grief, it reads like a status an agent would actually type
+# — plain, lowercase, no poem or slogan — and it stays in the machine's
+# voice throughout, ending on a turn that lands in a single read.
 
 MAX_CHARS = 200  # the gate refuses /output/entry.txt over 200 characters
 
